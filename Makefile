@@ -15,3 +15,8 @@ zsh:
 vim:
 	sh -c "$$(wget -O- https://raw.githubusercontent.com/Shougo/dein-installer.vim/master/installer.sh)"
 	ln -fs ~/dotfiles/vimrc ~/.vimrc
+
+rbenv:
+	brew install rbenv
+	brew install ruby-build
+	brew install rbenv-gemset
